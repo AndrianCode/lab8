@@ -1,5 +1,5 @@
 #include "server.h"
-#include <QJsonDocument>
+#include "QJsonDocument.h"
 #include <QJsonObject>
 #include <QJsonArray>
 #include <progbase-cpp/net.h>
