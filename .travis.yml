@@ -10,8 +10,6 @@ install:
   - sudo apt-get -y install qt55[QTPACKAGE]
 
 script:
-  - source /opt/qt55/bin/qt55-env.sh
-  - cd src
-  - /opt/qt55/bin/qmake -project
-  - /opt/qt55/bin/qmake KBBI-Qt.pro
-- make
+  - qmake -project
+  - qmake lab8.pro
+  - make
