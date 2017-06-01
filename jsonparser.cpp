@@ -1,7 +1,7 @@
 #include "jsonparser.h"
-#include "QJsonDocument.h"
-#include "QJsonArray.h"
-#include "QJsonObject.h"
+#include <QJsonDocument>
+#include <QJsonArray>
+#include <QJsonObject>
 
 JsonParser::JsonParser()
 {
