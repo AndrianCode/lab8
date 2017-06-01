@@ -29,6 +29,12 @@ public:
      * @return id
      */
     string get_id();
+    /**
+     * @brief IntToString Converts int to string
+     * @param number - int to convert
+     * @return string
+     */
+    string IntToString(int number);
 };
 
 #endif // CHARACTER_H

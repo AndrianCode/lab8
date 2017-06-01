@@ -1,5 +1,6 @@
 #include "character.h"
 #include <string>
+#include <sstream>
 
 character::character(string name, string movie, int id)
 {
@@ -12,4 +13,11 @@ string character::get_name() { return name; }
 
 string character::get_movie() { return movie; }
 
-string character::get_id() { return std::to_string(id); }
+string character::get_id() { return IntToString(id); }
+
+
+string character::IntToString(int number) {
+  ostringstream oss;
+  oss << number;
+  return oss.str();
+}
