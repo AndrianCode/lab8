@@ -5,7 +5,7 @@ language: cpp
 before_install:
   - sudo add-apt-repository --yes ppa:beineri/opt-qt58-trusty
   - sudo apt-get update -qq
-  - sudo apt-get install libqt4-core
+  - sudo apt-get install libqt5-core
   
 
 install:
