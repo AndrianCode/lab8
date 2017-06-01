@@ -5,11 +5,9 @@ language: cpp
 before_install:
   - sudo add-apt-repository --yes ppa:beineri/opt-qt58-trusty
   - sudo apt-get update -qq
-  - sudo apt-get install <QJsonDocument>
-  - sudo apt-get install <QJsonArray>
-  - sudo apt-get install <QJsonObject>
-  - sudo apt-get install <QFile>
-  - sudo apt-get install <QTextStream>
+  - sudo apt-get install libqt4-core
+  - sudo apt-get install qt4-dev-tools
+  - sudo git clone https://github.com/eteran/qjson4
   
 
 install:
