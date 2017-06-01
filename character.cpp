@@ -1,4 +1,5 @@
 #include "character.h"
+#include <string>
 
 character::character(string name, string movie, int id)
 {
