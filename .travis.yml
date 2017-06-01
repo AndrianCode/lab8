@@ -7,7 +7,7 @@ before_install:
   - sudo apt-get update -qq
 
 install:
-  - sudo apt-get -y install qt58[QTPACKAGE]
+  - sudo apt-get install qt54base qt54websockets
 
 script:
   - qmake -project
