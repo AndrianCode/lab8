@@ -7,6 +7,7 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install libqt4-core
   - sudo apt-get install qt4-dev-tools
+  - sudo git clone https://github.com/eteran/qjson4
   
 
 install:
