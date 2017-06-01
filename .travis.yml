@@ -7,7 +7,9 @@ before_install:
   - sudo apt-get update -qq
 
 install:
-  - sudo apt-get install qt58base qt58websockets
+  - sudo apt-get install qt58base
+  - sudo apt-get install libssl-dev
+  - sh scripts/install-libprogbase.sh
 
 script:
   - qmake -project
