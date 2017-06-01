@@ -1,5 +1,10 @@
 # lab8
 
+[![Travis-CI][travis-badge]][travis-builds]
+
+[travis-badge]: https://travis-ci.org/PublicHadyniak/libprogbase.svg?branch=master
+[travis-builds]: https://travis-ci.org/PublicHadyniak/libprogbase/builds
+
 ## Tasks:
 #### Створити TCP-сервер, що слухає запити на підключення TCP клієнтів і взаємодіє з ними за допомогою протоколу HTTP. Сервер повинен обробляти лише HTTP GET запити і повертати коректно-сформовані HTTP-відповіді. Інтерфейс сервера дозволяє звертатися до нього по HTTP-шляхах:
 ##### / - відправити у відповідь JSON-об'єкт із інформацією про сервер:
