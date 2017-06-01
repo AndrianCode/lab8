@@ -1,5 +1,5 @@
 #include "jsonparser.h"
-#include <QJsonDocument>
+#include "QJsonDocument"
 #include <QJsonArray>
 #include <QJsonObject>
 
